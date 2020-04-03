@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GraphQL" Version="3.0.0-preview-1490" />
+    <PackageReference Include="GraphQL-Parser" Version="5.1.0" />
+    <PackageReference Include="GraphQL.Authorization" Version="3.0.39-preview-39" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PizzaOrder.Business\PizzaOrder.Business.csproj" />
+  </ItemGroup>
+
+</Project>
